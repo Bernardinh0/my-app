@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap.bundle.js';
 
 function App() {
   return (
@@ -10,6 +12,7 @@ function App() {
       </header>
     <section>
         <h1>Contenu</h1>
+        <button type="button" class="btn btn-primary">Primary</button>
     </section>
     <footer>
         <h2>Footer</h2>
